@@ -1,0 +1,50 @@
+@import url("../css/price.css");
+@import url("../css/awesome.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.html {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 1170px;
+  padding: 0 -15px;
+}
+
+.title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.line {
+  border-bottom: 2px solid #d98943;
+  height: 2px;
+}
+
+.description {
+  text-align: center;
+  margin-top: 34px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
+
+.raw {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

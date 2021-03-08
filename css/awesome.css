@@ -1,0 +1,63 @@
+.awesome {
+  width: 100%;
+  background-color: white;
+}
+
+.awesome-title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.awesome-line {
+  width: 64px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.awesome-description {
+  margin-top: 30px;
+}
+
+.awesome-row {
+  margin-top: 67px;
+}
+
+.awesomeitem {
+  max-width: 350px;
+  margin: 0 15px 109px 15px;
+}
+
+.awesome-img {
+  border: 1px solid #d98943;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.img-lamp {
+  display: block;
+  margin: 17px auto;
+}
+
+.img-keyboard {
+  display: block;
+  margin: 19px auto;
+}
+
+.img-charge {
+  display: block;
+  margin: 19px auto;
+}
+
+.awesome-subtitle {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.subtitle-description {
+  text-align: center;
+}

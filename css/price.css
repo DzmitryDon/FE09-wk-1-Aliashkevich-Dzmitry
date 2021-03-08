@@ -1,0 +1,80 @@
+.pricing {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+.pricing-title {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.pricing-line {
+  width: 64px;
+  margin: auto;
+  margin-top: 34px;
+}
+
+.pricing-description {
+  margin-top: 34px;
+}
+.pricing-row {
+  margin-top: 63px;
+}
+
+.pricing-item {
+  text-align: center;
+  min-width: 340px;
+  margin: 0 15px 80px 15px;
+}
+
+.dark {
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.dark-title {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.dark-price {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+  color: white;
+  line-height: 100px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+.dark-free {
+  line-height: 50px;
+}
+
+.light {
+  background-color: white;
+  color: #86878b;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 40px;
+  margin-top: 4px;
+}
+
+.orange {
+  background-color: #d98943;
+  font-weight: 800;
+  line-height: 50px;
+}
