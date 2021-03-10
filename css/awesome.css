@@ -27,6 +27,13 @@
   margin: 0 15px 109px 15px;
 }
 
+.awesomeitem:hover {
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+  border-radius: 7px;
+  background-color: ghostwhite;
+}
+
 .awesome-img {
   border: 1px solid #d98943;
   width: 70px;

@@ -1,5 +1,9 @@
 @import url("../css/price.css");
 @import url("../css/awesome.css");
+@import url("../css/testimonial.css");
+@import url("../css/footer.css");
+
+/*  parametrs  */
 
 * {
   margin: 0;
@@ -47,4 +51,5 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-end;
 }

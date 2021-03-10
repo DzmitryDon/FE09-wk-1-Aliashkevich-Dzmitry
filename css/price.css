@@ -8,6 +8,15 @@
   padding-top: 80px;
 }
 
+.pricing-title::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  display: block;
+  margin: 30px auto 0 auto;
+  background-color: #d98943;
+}
+
 .pricing-line {
   width: 64px;
   margin: auto;
@@ -25,6 +34,14 @@
   text-align: center;
   min-width: 340px;
   margin: 0 15px 80px 15px;
+}
+
+.pricing-item:hover {
+  position: relative;
+  bottom: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  border-radius: 7px;
 }
 
 .dark {
