@@ -34,13 +34,13 @@
   text-align: center;
   min-width: 340px;
   margin: 0 15px 80px 15px;
+  transition: 0.4s;
 }
 
 .pricing-item:hover {
   position: relative;
   bottom: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-  transition: 0.3s;
   border-radius: 7px;
 }
 
