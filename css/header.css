@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  background-color: black;
+  padding: 0;
+}
+
+.header-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+.header-logotip-name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+  border: none;
+}
+
+.header-logotip-name::after {
+  content: "IT";
+  color: #ec7979;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  /*border: none;*/
+  justify-content: space-between;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+}
+
+.menu-point-href {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+}
+
+.menu-point-href:hover {
+  text-decoration: underline;
+  text-decoration-color: #ec7979;
+  text-decoration-thickness: 5px;
+  text-decoration-style: solid;
+}

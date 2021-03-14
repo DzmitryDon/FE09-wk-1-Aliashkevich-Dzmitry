@@ -1,0 +1,75 @@
+.offer {
+  background-image: url("../img/background_footer.png");
+  width: 100%;
+  padding: 36px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.offer::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.offer-title {
+  margin-top: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.offer-title::after {
+  content: "";
+  width: 67px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin: 30px auto;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.offer-description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18.78px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.offer-download {
+  margin: 57px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  max-width: 135px;
+  padding: 11px 26px;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
