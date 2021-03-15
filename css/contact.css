@@ -1,0 +1,66 @@
+.contact {
+  width: 100%;
+  background-color: white;
+  padding: 100px 0;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-title::after {
+  content: "";
+  width: 67px;
+  height: 2px;
+  display: block;
+  margin: 30px auto;
+  background-color: #d98943;
+}
+
+.contact-description {
+  margin-top: 30px;
+}
+
+.testimonial-row {
+  margin: 76px -15px 0;
+}
+
+.testimonial-row-item {
+  display: flex;
+  max-width: 298px;
+  margin: 0 15px 20px;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 5px 5px;
+  transition: 1s;
+}
+
+.testimonial-row-item:hover {
+  box-shadow: 0 7px 15px rgba(204, 17, 17, 0.25);
+  transition: 0.4s;
+  border-radius: 15px;
+}
+
+.contact-row__form {
+  margin: 45px 15px 0;
+}
+
+.contact-button {
+  margin: auto;
+}
+.contact-button-send {
+  display: block;
+  background-color: #ec7979;
+  border: 0 solid;
+  width: 166px;
+  font-size: 15px;
+  transition: 0.3s ease;
+  margin: auto;
+  margin-top: 70px;
+  padding: 13px 0;
+  color: white;
+}
+
+.contact-button-send:hover {
+  box-shadow: 0 0 2px 2px rgba(8, 110, 33, 0.55);
+}
