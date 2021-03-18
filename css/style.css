@@ -3,6 +3,7 @@
 @import url("../css/social.css");
 @import url("../css/price.css");
 @import url("../css/awesome.css");
+@import url("../css/feature.css");
 @import url("../css/testimonial.css");
 @import url("../css/offer.css");
 @import url("../css/contact.css");
@@ -57,16 +58,3 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-
-/*.testimonial-title {
-  text-align: center;
-}
-
-.testimonial-title::after {
-  content: "";
-  width: 67px;
-  height: 2px;
-  display: block;
-  margin: 30px auto;
-  background-color: #d98943;
-}*/

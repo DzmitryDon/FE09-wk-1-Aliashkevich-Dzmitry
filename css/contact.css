@@ -64,3 +64,28 @@
 .contact-button-send:hover {
   box-shadow: 0 0 2px 2px rgba(8, 110, 33, 0.55);
 }
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+  margin: 0 --5px;
+}
+
+.contact-form-point {
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 5px;
+}
+
+.contact-input {
+  margin-bottom: 32px;
+}
+
+.contact-label {
+  margin-bottom: 25px;
+}
+
+.contact-label {
+  margin-bottom: 25px;
+}
