@@ -59,32 +59,26 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 958px) {
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
   html {
     font-size: 14px;
   }
 
   .container {
-    max-width: 818px;
-  }
-}
-
-@media screen and (max-width: 647px) {
-  html {
-    font-size: 12px;
-  }
-
-  .container {
-    max-width: 517px;
-  }
-}
-
-@media screen and (max-width: 337px) {
-  html {
-    font-size: 8px;
-  }
-
-  .container {
-    max-width: 270px;
+    max-width: 90%;
   }
 }
