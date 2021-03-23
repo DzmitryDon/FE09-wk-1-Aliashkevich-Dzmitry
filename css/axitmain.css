@@ -1,6 +1,6 @@
 .axit {
   max-width: 100%;
-  padding: 109px 0;
+  padding: 6.8rem 0;
   background-image: url(../img/background-axit.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -17,28 +17,40 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.55);
 }
+
 .container-row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 15px;
+  margin: 0 0.9375rem;
 }
+
 .axit-logo-ax {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 3.75rem;
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
   line-height: 70px;
   color: #ffffff;
 }
+
 .axit-logo-ax::after {
   content: "IT";
   color: #ec7979;
   font-size: 3.75rem;
 }
+
+.title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 42px;
+}
+
 .axit-title {
-  width: 544px;
+  max-width: 34rem;
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
@@ -48,8 +60,8 @@
 }
 
 .axit-line {
-  width: 64px;
-  margin-top: 25px;
+  max-width: 4rem;
+  margin-top: 1.56rem;
   margin-right: auto;
 }
 .axit-line-dec {
@@ -58,10 +70,11 @@
   color: #ffffff;
   height: 1px;
 }
+
 .axit-text {
-  padding-top: 39px;
-  padding-bottom: 39px;
-  width: 250px;
+  padding-top: 2.44rem;
+  padding-bottom: 2.44rem;
+  max-width: 15.625rem;
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
@@ -71,7 +84,7 @@
 }
 
 .axit-download-text {
-  padding: 11px 35px;
+  padding: 0.688rem 2.188rem;
   border: 1px solid rgba(255, 255, 255, 0.8);
   box-sizing: border-box;
   outline: none;
@@ -94,12 +107,14 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #ffffff;
-  border-radius: 8px;
-  width: 370px;
+  border-radius: 0.5rem;
+  max-width: 23rem;
+  padding-top: 1.25rem;
 }
 
 .form-items {
-  padding: 29px 59px;
+  padding: 1.81rem 3.67rem;
+  max-width: 23rem;
 }
 
 .form-title {
@@ -113,7 +128,7 @@
   font-weight: bold;
   font-size: 1.25rem;
   line-height: 27px;
-  margin-bottom: 73px;
+  margin-bottom: 4.56rem;
 }
 
 .form-span {
@@ -124,7 +139,7 @@
 
 .form-item-title {
   display: block;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
@@ -137,7 +152,7 @@
   width: 100%;
   border: none;
   border-bottom: 1px solid #bdbdbd;
-  margin-bottom: 19px;
+  margin-bottom: 1.25rem;
   outline: none;
 }
 
@@ -145,9 +160,9 @@
   outline: none;
   background-color: #ec7979;
   border: 0 solid;
-  padding: 15px 0;
-  width: 370px;
-  border-radius: 0 0 8px 8px;
+  padding: 0.938rem 0;
+  max-width: 23rem;
+  border-radius: 0 0 0.5rem 0.5rem;
   color: white;
   font-size: 0.938rem;
 }
