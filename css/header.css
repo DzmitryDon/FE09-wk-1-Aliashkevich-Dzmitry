@@ -1,7 +1,7 @@
 .header {
-  width: 100%;
+  max-width: 100%;
   background-color: black;
-  padding: 0;
+  padding: 15px 0;
 }
 
 .header-line {
@@ -9,14 +9,14 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 15px;
+  padding: 15px 0;
 }
 
 .header-logotip-name {
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.88rem;
   line-height: 35px;
   color: #ffffff;
   border: none;
@@ -30,21 +30,20 @@
 .menu {
   display: flex;
   flex-direction: row;
-  /*border: none;*/
-  justify-content: space-between;
   align-items: center;
-  /*flex-wrap: wrap;*/
+  width: 580px;
+  justify-content: space-between;
 }
 
 .menu-point-href {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
   line-height: 20px;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
   border: none;
+  font-size: 0.938rem;
 }
 
 .menu-point-href:hover {

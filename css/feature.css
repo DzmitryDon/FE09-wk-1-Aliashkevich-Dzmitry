@@ -1,90 +1,90 @@
 .feature {
   width: 100%;
-  background-color: white;
+  padding: 6.25rem 0;
 }
 
-.feature-line {
+.tabs-row {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /*flex-wrap: wrap;*/
-  padding: 0 15px;
   flex-direction: row;
-}
-
-.feature-line-tab {
-  margin: 15px 15px;
-}
-
-.feature-line-tab-bottoms {
-  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  flex-direction: column;
+  margin: 0 -0.94rem;
 }
 
-.tab {
-  margin-top: 10px;
-}
-
-.feature-line-tab-bottoms/*
-.feature-line-tab-name {
-  width: 112px;
-  height: 110px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  color: white;
-  margin: 45px 35px;
-  background-color: black;
-  border-radius: 8px;
-  line-height: 110px;
-}
-.feature-line-description {
+.tabs-list {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  margin: 15px 15px;
+  margin: 10 0.94rem;
+  justify-content: space-between;
 }
 
-.feature-line-description-title {
-  font-family: Open Sans;
+.tabs-list-item {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 0.94rem;
+  line-height: 1.3rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 2.8rem 2.2rem;
+  border-radius: 8px;
+  margin-bottom: 0.625rem;
+  transition: 0.5s;
+}
+
+.tabs-list-item:hover {
+  background-color: #ec7979;
+  transform: scale(1.6);
+}
+
+.tabs-text {
+  max-width: 32rem;
+  margin: 0 0.94rem;
+}
+
+.tabs-text-title {
   text-transform: uppercase;
+}
+
+.tabs-png {
+  margin: 0 0.94rem;
+}
+
+.tabs-text-title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
   color: #000000;
 }
 
-.feature-line-description-text {
-  margin-top: 150px;
-  font-family: Open Sans;
+.tabs-text-discription h3 {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  align-items: center;
+  font-size: 0.85rem;
+  line-height: 1.2rem;
   text-transform: uppercase;
   color: #86878b;
+  margin-top: 3rem;
 }
 
-.feature-bottom {
-  margin-top: 130px;
+.tabs-download {
+  margin: 6rem auto 0;
 }
 
-.feature-bottom-name {
-  background-color: #ec7979;
-  font-family: Open Sans;
+.tabs-download a {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
+  font-size: 0.935rem;
+  line-height: 1.25rem;
   color: #ffffff;
+  text-decoration: none;
+  padding: 0.68rem 1.93rem;
+  text-align: center;
+  border: 1px solid #ffffff;
+  background-color: #ec7979;
 }
-
-.feature-line-picture {
-  margin: 15px 15px;
-} */;

@@ -1,175 +1,153 @@
 .axit {
-  width: 100%;
+  max-width: 100%;
+  padding: 109px 0;
   background-image: url(../img/background-axit.png);
-  padding: 36px 0;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   position: relative;
 }
 
 .axit::after {
   content: "";
-  position: absolute;
   width: 100%;
   height: 100%;
+  position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.container-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+.axit-logo-ax {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.75rem;
+  padding-bottom: 32px;
+  line-height: 70px;
+  color: #ffffff;
+}
+.axit-logo-ax::after {
+  content: "IT";
+  color: #ec7979;
+  font-size: 3.75rem;
+}
+.axit-title {
+  width: 544px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  color: #ffffff;
+  line-height: 42px;
 }
 
 .axit-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 15px;
-  flex-direction: row;
-}
-
-.axit-line-main {
-  max-width: 540px;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 35px;
-}
-
-.axit-logotip-name {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 70px;
-  line-height: 35px;
-  padding: 0;
-  color: #ffffff;
-  border: none;
-}
-
-.axit-logotip-name::after {
-  content: "IT";
-  color: #ec7979;
-}
-
-.axit-title {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
-  color: #ffffff;
-  margin-top: 32px;
-}
-
-.axit-title::after {
-  content: "";
   width: 64px;
-  height: 2px;
-  display: block;
-  margin-top: 32px;
-  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 25px;
+  margin-right: auto;
 }
-
-.axit-description {
-  color: rgba(255, 255, 255, 0.8);
+.axit-line-dec {
+  border: none;
+  background-color: #ffffff;
+  color: #ffffff;
+  height: 1px;
+}
+.axit-text {
+  padding-top: 39px;
+  padding-bottom: 39px;
+  width: 250px;
   font-family: Raleway;
   font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: normal;
+  font-size: 0.875rem;
   line-height: 19px;
-  margin-top: 35px;
-  position: relative;
-  z-index: 10;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.axit-description-text {
-  max-width: 260px;
-}
-
-.axit-bottom {
-  margin-top: 40px;
-}
-
-.axit-bottom-name {
+.axit-download-text {
+  padding: 11px 35px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  outline: none;
+  background: transparent;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.94rem;
   text-align: center;
+  color: #ffffff;
+}
+
+.axit-download-text:hover {
+  transform: scale(1.6);
+  cursor: pointer;
 }
 
 .axit-form {
-  max-width: 540px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 8px;
-  max-width: 540px;
+  width: 370px;
 }
-.form-label {
-  color: #bdbdbd;
-  margin-bottom: 10px;
-}
-.axit-input {
-  display: flex;
-  flex-direction: column;
-  padding: 0 60px;
 
-  border: 0;
-  border: 1px solid #ccc;
-  height: 40px;
-  padding-left: 10px;
-  outline: 0;
+.form-items {
+  padding: 29px 59px;
 }
 
 .form-title {
-  font-size: 20px;
-  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
   text-transform: capitalize;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 27px;
   margin-bottom: 73px;
 }
 
-.form-title-name {
-  font-size: 20px;
-  font-weight: 700;
+.form-span {
+  white-space: pre-wrap;
   text-transform: uppercase;
   color: #ec7979;
 }
 
-.form-label {
+.form-item-title {
+  display: block;
+  padding-bottom: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 19px;
   color: #bdbdbd;
-  margin-bottom: 10px;
-}
-.axit-input-column {
-  padding: 29px 59px;
 }
 
-.axit-input {
-  margin-bottom: 20px;
-  font-weight: 700;
-  background: transparent;
-  border-bottom: 1px solid black;
-  outline: none;
+.form-item-field {
+  width: 100%;
   border: none;
-}
-
-.input {
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 19px;
   outline: none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: black;
-  border-bottom-width: 2px; /
 }
 
-.get-stat {
-  border: none;
-  padding: 19px 0;
-  color: #ffffff;
+.axit-buttom-text {
+  outline: none;
   background-color: #ec7979;
-  font-size: 15px;
-  font-weight: 600;
+  border: 0 solid;
+  padding: 15px 0;
+  width: 370px;
   border-radius: 0 0 8px 8px;
-  transition: all 0.5s;
-  cursor: pointer;
+  color: white;
+  font-size: 0.938rem;
 }

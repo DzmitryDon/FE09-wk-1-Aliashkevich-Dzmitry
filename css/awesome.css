@@ -1,6 +1,7 @@
 .awesome {
   width: 100%;
   background-color: white;
+  padding: 100px 0;
 }
 
 .awesome-title {
@@ -28,6 +29,7 @@
   padding: 5px;
   margin: 0 15px;
   transition: 0.3s ease;
+  margin-top: 30px;
 }
 
 .awesomeitem:hover {
@@ -61,6 +63,6 @@
 }
 
 .awesome-i {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #d98943;
 }

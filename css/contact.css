@@ -21,33 +21,10 @@
   margin-top: 30px;
 }
 
-.testimonial-row {
-  margin: 76px -15px 0;
-}
-
-.testimonial-row-item {
-  display: flex;
-  max-width: 298px;
-  margin: 0 15px 20px;
-  justify-content: space-between;
-  flex-direction: column;
-  padding: 0 5px 5px;
-  transition: 1s;
-}
-
-.testimonial-row-item:hover {
-  box-shadow: 0 7px 15px rgba(204, 17, 17, 0.25);
-  transition: 0.4s;
-  border-radius: 15px;
-}
-
-.contact-row__form {
-  margin: 45px 15px 0;
-}
-
 .contact-button {
   margin: auto;
 }
+
 .contact-button-send {
   display: block;
   background-color: #ec7979;
@@ -67,25 +44,71 @@
 
 .contact-form {
   display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.contact-form-items {
+  display: flex;
   justify-content: space-between;
-  margin-bottom: 75px;
-  margin: 0 --5px;
+  flex-wrap: wrap;
 }
 
-.contact-form-point {
-  justify-content: space-between;
-  width: 40%;
-  margin: 0 5px;
+.contact-description {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 91px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 19px;
+
+  color: #86878b;
 }
 
-.contact-input {
-  margin-bottom: 32px;
+.form-items-decoratons-text {
+  display: block;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 19px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
+  color: #bdbdbd;
 }
 
-.contact-label {
-  margin-bottom: 25px;
+.contact-text {
+  width: 478px;
+  resize: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #bdbdbd;
+  transform: rotate(0.38deg);
 }
 
-.contact-label {
-  margin-bottom: 25px;
+.contact-form-buttom {
+  text-align: center;
+  margin: auto;
+  margin-top: 67px;
+}
+
+.contact-buttom {
+  padding: 11px 32px;
+  background: #ec7979;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.96rem;
+  outline: none;
+  text-align: center;
+}
+
+.contact-buttom:hover {
+  transform: scale(1.4);
+  cursor: no-drop;
 }

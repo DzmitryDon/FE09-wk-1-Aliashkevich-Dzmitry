@@ -19,6 +19,7 @@
 
 .footer-href {
   border: none;
+  font-size: 1.4rem;
 }
 
 .footer i {
@@ -34,7 +35,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 16px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);

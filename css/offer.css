@@ -1,7 +1,7 @@
 .offer {
   background-image: url("../img/background_footer.png");
   width: 100%;
-  padding: 36px 0;
+  padding: 46px 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,7 +19,6 @@
 }
 
 .offer-title {
-  margin-top: 10px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
@@ -58,6 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 0.94rem;
 }
 
 a {
