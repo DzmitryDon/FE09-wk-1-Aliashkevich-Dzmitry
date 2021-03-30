@@ -1,40 +1,39 @@
 .pricing {
   width: 100%;
   background-color: #e5e5e5;
+  padding: 40px 0 40px;
 }
 
 .pricing-title {
   text-align: center;
-  padding-top: 80px;
 }
 
 .pricing-title::after {
   content: "";
-  width: 64px;
-  height: 2px;
+  /*width: 64px;
+  height: 2px;*/
   display: block;
-  margin: 30px auto 0 auto;
+  margin: auto;
   background-color: #d98943;
 }
 
-.pricing-line {
+/*.pricing-line {
   width: 64px;
   margin: auto;
   margin-top: 34px;
-}
+}*/
 
 .pricing-description {
   margin-top: 34px;
 }
 .pricing-row {
-  margin-top: 63px;
+  margin-top: 64px;
 }
 
 .pricing-item {
   text-align: center;
-  min-width: 340px;
-  margin: 0 15px 80px 15px;
-  transition: 0.5s;
+  min-width: 240px;
+  margin: 0 15px 40px;
   font-size: 0.875rem;
 }
 
@@ -62,6 +61,7 @@
   font-size: 1.25rem;
   line-height: 27px;
   text-align: center;
+  text-align: center;
 }
 
 .dark-price {
@@ -78,6 +78,7 @@
 
 .dark-free {
   line-height: 50px;
+  font-weight: bold;
 }
 
 .light {

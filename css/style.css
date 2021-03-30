@@ -8,6 +8,7 @@
 @import url("../css/offer.css");
 @import url("../css/contact.css");
 @import url("../css/footer.css");
+@import url("../css/media.css");
 
 /*  parametrs  */
 
@@ -26,14 +27,14 @@
 .container {
   margin: auto;
   max-width: 1170px;
-  padding: 0 0.9375rem;
+  padding: 0 15px;
 }
 
 .title {
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 42px;
 }
 
@@ -59,31 +60,38 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 1200px) {
-  .container {
-    max-width: 970px;
-  }
+.item-subtitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 27px;
+  color: #333333;
 }
-@media (max-width: 992px) {
-  html {
-    font-size: 15px;
-  }
 
-  .container {
-    max-width: 750px;
-  }
+p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 19px;
 }
-@media (max-width: 767px) {
-  html {
-    font-size: 14px;
-  }
 
-  .container {
-    max-width: 90%;
-  }
+.input {
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
+  line-height: 19px;
+  color: black;
+  text-align: center;
+}
 
-  .container-row {
-    display: flex;
-    justify-content: center;
-  }
+.label {
+  display: inline-block;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 19px;
+  color: #bdbdbd;
 }

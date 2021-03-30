@@ -9,14 +9,14 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 15px 0;
+  margin: 0 15px;
 }
 
 .header-logotip-name {
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.88rem;
+  font-size: 1.875rem;
   line-height: 35px;
   color: #ffffff;
   border: none;
@@ -25,14 +25,28 @@
 .header-logotip-name::after {
   content: "IT";
   color: #ec7979;
+  font-size: 1.875;
 }
+
+.menu-toggle {
+  /*opacity: 0;*/
+  display: none;
+}
+
+/*.menu-btn {
+  display: none;
+}*/
 
 .menu {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 580px;
+  max-width: 580px;
   justify-content: space-between;
+}
+
+.menu-point {
+  margin-left: 48px;
 }
 
 .menu-point-href {
@@ -43,7 +57,9 @@
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
   border: none;
+  position: relative;
   font-size: 0.938rem;
+  padding: 0;
 }
 
 .menu-point-href:hover {

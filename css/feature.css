@@ -1,90 +1,106 @@
 .feature {
   width: 100%;
-  padding: 6.25rem 0;
+  padding: 80px 0;
 }
 
-.tabs-row {
+.tabs-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 -0.94rem;
+  flex-wrap: wrap;
+  margin: 0 15px;
 }
 
 .tabs-list {
   display: flex;
   flex-direction: column;
-  margin: 10 0.94rem;
   justify-content: space-between;
+  width: 120px;
 }
 
-.tabs-list-item {
-  font-family: "Open Sans";
+.tabs-list-item-buttom {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 10px;
   font-style: normal;
-  font-weight: bold;
-  font-size: 0.94rem;
-  line-height: 1.3rem;
+  font-weight: 600;
+  font-size: 0.7rem;
+  line-height: 20px;
   text-align: center;
-  color: #ffffff;
-  background-color: #333333;
-  padding: 2.8rem 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  cursor: pointer;
   border-radius: 8px;
-  margin-bottom: 0.625rem;
-  transition: 0.5s;
+  outline: none;
+  font-family: Open Sans;
+  color: #ffffff;
 }
 
-.tabs-list-item:hover {
+.tabs-list-item-buttom:hover {
   background-color: #ec7979;
-  transform: scale(1.6);
+  background: #ec7979;
+  transform: scale(1.4);
 }
 
 .tabs-text {
-  max-width: 32rem;
-  margin: 0 0.94rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .tabs-text-title {
-  text-transform: uppercase;
-}
-
-.tabs-png {
-  margin: 0 0.94rem;
-}
-
-.tabs-text-title h2 {
-  font-family: "Open Sans";
+  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 1.25rem;
-  line-height: 1.8rem;
+  text-align: center;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
   color: #000000;
 }
 
-.tabs-text-discription h3 {
-  font-family: "Open Sans";
+.tabs-text-discription {
+  display: flex;
+  max-width: 570px;
+  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.85rem;
-  line-height: 1.2rem;
+  font-size: 0.875rem;
+  line-height: 19px;
+  align-items: center;
   text-transform: uppercase;
   color: #86878b;
-  margin-top: 3rem;
 }
 
-.tabs-download {
-  margin: 6rem auto 0;
-}
-
-.tabs-download a {
-  font-family: "Open Sans";
+.tabs-text-buttom-download {
+  outline: none;
+  width: 135px;
+  padding: 11px 32px;
+  background: #ec7979;
+  border: 1px solid #ffffff;
+  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.935rem;
-  line-height: 1.25rem;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 0.68rem 1.93rem;
+  font-size: 0.938rem;
   text-align: center;
-  border: 1px solid #ffffff;
-  background-color: #ec7979;
+  color: #ffffff;
+}
+
+.tabs-text-buttom-download:hover {
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+.tabs-img {
+  max-width: 320px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: auto;
 }

@@ -37,7 +37,7 @@
   transition: 0.3s;
   border-radius: 7px;
   background-color: ghostwhite;
-  transform: rotate(-90deg);
+  /*transform: rotate(-90deg);*/
 }
 
 .awesome-img {

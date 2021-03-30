@@ -25,27 +25,36 @@
             <a class="header-logotip-name" href="#">AX</a>
           </div>  
            
-          <nav class="header-menu">
-            <ul class="menu">
-              <li class="menu-point">
-                <a class="menu-point-href" href="#">Features</a>
-              </li>
-              <li class="menu-point">
-                <a class="menu-point-href" href="#">About</a>
-              </li>
-              <li class="menu-point">
-                <a class="menu-point-href" href="#">Pricing</a>
-              </li>
-              <li class="menu-point">
-                <a class="menu-point-href" href="#">Reviews</a>
-              </li>
-              <li class="menu-point">
-                <a class="menu-point-href" href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
+          <div class="burger-menu">  
+            
+            <input class="menu-toggle" type="checkbox"/>
+            <label class="menu-btn" for="menu-toggle">
+              <span></span>
+            </label>
+ 
+            <nav class="header-menu">
+              <ul class="menu">
+                <li class="menu-point">
+                  <a class="menu-point-href" href="#">Features</a>
+                </li>
+                <li class="menu-point">
+                  <a class="menu-point-href" href="#">About</a>
+                </li>
+                <li class="menu-point">
+                  <a class="menu-point-href" href="#">Pricing</a>
+                </li>
+                <li class="menu-point">
+                  <a class="menu-point-href" href="#">Reviews</a>
+                </li>
+                <li class="menu-point">
+                  <a class="menu-point-href" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          
+          </div>
         
-        </div>
+         </div>
       </div>
     </header>
   
@@ -54,7 +63,7 @@
     <div class="container">
       <div class="container-row">
         <div class="axit-descriprion">
-          <div class="moderm-logo">
+          <div class="axit-logo">
             <h3 class="axit-logo-ax">AX</h3>
           </div>
           <h1 class="title axit-title">
@@ -143,26 +152,53 @@
     </div>
   </section> 
   
-  <!-- ++  section feature-->
+  <!-- section feature-->
   <section class="feature">
     <div class="container">
-      
-      <div class="tabs-row">
-        <div class="tabs-list">
-          <div class="tabs-list-item">TAB 01</div>
-          <div class="tabs-list-item">TAB 02</div>
-          <div class="tabs-list-item">TAB 03</div>
-        </div>  
+      <div class="tabs-container">
         
-        <div class="tabs-text">
-          <div class="tabs-text-title"><h2>tabs WITH SOFT trANSITIONING effect.</h2></div>
-          <div class="tabs-text-discription"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis usto commodo. Proin sodales pulvinar tempor. Cum sociis montes.</h3></div>
-          <div class="tabs-text-discription"><h3>Lorem ipsum usto commodo. Proin sodales pulvinar tempor. Cum sociisdolor sit amet consectetur adipisicing elit. Aenean euismod bibendum laoreet.</h3></div>
-          <div class="tabs-download"><a href="#">Download</a></div>
-        </div>
-        <div class="tabs-png"><img src="img/feautur-build.png"></div>
-      </div>
+        <div class="tabs-list">
+          <div class="tabs-list-item">
+            <button class="tabs-list-item-buttom" type="submit">
+                  TAB 01
+            </button>
+          </div>
+            
+            <div class="tabs-list-item">
+              <button class="tabs-list-item-buttom" type="submit">
+                TAB 02
+              </button>
+            </div>
+            
+            <div class="tabs-list-item">
+              <button class="tabs-list-item-buttom" type="submit">
+                TAB 03
+              </button>
+            </div>
+            
+        </div>  
+          
+          <div class="tabs-text">
+            <h3 class="tabs-text-title">WITH SOFT trANSITIONING effect.</h3>
+            
+            <p class="tabs-text-discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis usto commodo. Proin sodales pulvinar tempor. Cum sociis montes.</p>
+            
+            <p class="tabs-text-discription">Lorem ipsum usto commodo. Proin sodales pulvinar tempor. Cum sociisdolor sit amet consectetur adipisicing.</p>
+            
+            <div class="tabs-text-buttom">
+              <button class="tabs-text-buttom-download" type="submit">
+                Download
+              </button>
+            </div>
+          
+          </div>
+          
+          <div class="tabs-img-blok">
+            <img class="tabs-img" src="img/feautur-build.png"/>
+            
+          </div>
     
+      </div>
     </div>
   </section>
     
@@ -353,7 +389,9 @@
         <h2 class="title offer-title">STYLISH AXURE DESIGN</h2>
         
         <div class="description offer-description">
-          <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+          <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever! Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
+
+          </p>
         </div>
 
         <a href="#" class="offer-download">Download</a>
@@ -367,52 +405,55 @@
         <h2 class="title contact-title">CONTACT US</h2>
     
         <div class="description contact-description">
-          <p>Register or log into an account to send a message. Thank you for your feedback.</p>
+          <p>Register or loging into our account to send the new message. Thank for your you for your feedback.</p>
         </div>
         <div class="contact-form">
-          <form action="#" class="contact-form-send" name="form-cont">
-            <div class="contact-form-items">
-              <div class="form-items-right">
-                <div class="form-items-decoratons">
-                  <label class="form-items-decoratons-text" for="contact-name"
-                    >Name</label
-                  >
-                  <input class="contact-text" type="text" name="name" />
-                </div>
+          
+          <form class="form-style" action="#" >
+            <div class="contact-form-style">
+              <ul class="form-list contact-form-list">
+                <li class="form-label contact-form-label">
+                  <label for="name"
+                    >Name:    <br />
+                     <input class="input contact-input" type="text"/> 
+                  </label>
+                  <!-- <input class="input contact-input" type="text"/> -->
+                </li>
+                
+                <li class="form-label contact-form-label">
+                  <label for="mail"
+                    >E-mail:<br /><input
+                      class="input contact-input"
+                      type="text"/>
+                  </label>
+                
+                </li>
+                <li class="form-label contact-form-label">
+                  <label for="password"
+                    >Password:<br /><input class="input contact-input"
+                      type="password"/>
+                  </label>
+                </li>
+              </ul>
 
-                <div class="form-decoratons">
-                  <label class="form-items-decoratons-text" for="contact-Email"
-                    >Email</label
-                  >
-                  <input class="contact-text" type="email" name="Email" />
-                </div>
-
-                <div class="form-decoratons">
-                  <label
-                    class="form-items-decoratons-text"
-                    for="contact-password"
-                    >Password</label
-                  >
-                  <input class="contact-text" type="password" name="password" />
-                </div>
-              </div>
-              <div class="form-items-left">
-                <div class="form-decoratons">
-                  <label class="form-items-decoratons-text" for="Message"
-                    >Message</label
-                  >
-                  <textarea
-                    class="contact-text"
-                    name="Message"
-                    cols="30"
-                    rows="13"
+              <div class="contact-form-label">
+                <label for="text"
+                  >Message:<br /><textarea
+                    id="message"
+                    name="user-message"
                   ></textarea>
-                </div>
+                </label>
               </div>
             </div>
+            <div class="form-button">
+              <btn class="contact-form-button" type="submit">
+                Send Message
+              </btn>
+            </div>
           </form>
+        
         </div>
-        <div class="contact-form-buttom">
+<!--         <div class="contact-form-buttom">
           <button
             form="form-cont"
             class="contact-buttom"
@@ -421,7 +462,7 @@
             Send Messege
           </button>
         </div>
-
+ -->
       </div>
     </section>
 
