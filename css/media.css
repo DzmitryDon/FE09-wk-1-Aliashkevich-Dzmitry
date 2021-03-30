@@ -85,11 +85,9 @@
   .social-list {
     display: flex;
     /*justify-content: space-between;*/
-    social-href
     align-items: center;
   }
   .social-href {
-
     font-size: 50%;
   }
   .social-list-point {
