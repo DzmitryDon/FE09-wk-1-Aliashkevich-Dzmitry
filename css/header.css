@@ -28,14 +28,9 @@
   font-size: 1.875;
 }
 
-.menu-toggle {
-  /*opacity: 0;*/
-  display: none;
+#menu-toggle {
+  opacity: 0;
 }
-
-/*.menu-btn {
-  display: none;
-}*/
 
 .menu {
   display: flex;
